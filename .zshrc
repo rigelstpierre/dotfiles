@@ -14,6 +14,7 @@ alias nginx_go="sudo /opt/nginx/sbin/nginx"
 alias nginx_stop="sudo /opt/nginx/sbin/nginx -s stop"
 alias nginx_restart="sudo /opt/nginx/sbin/nginx -s reload"
 alias start_ao="/opt/local/bin/php-cgi -b localhost:9000 -c ~/Everything/AMCO-Online/config/php.ini"
+alias start_postgres="sudo su postgres -c '/opt/local/lib/postgresql92/bin/postgres -D /opt/local/var/db/postgresql92/defaultdb'"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -55,4 +56,9 @@ export MANPATH=/opt/local/man:/usr/local/man$MANPAT
 export PATH=/opt/local/lib/mysql5/bin:$PATH
 export PHP_ENV=development
 export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH=$HOME/local/bin:$PATH
+export PATH="./bin:$PATH"
+export PATH="$PATH":/opt/local/perl/p5-app-ack
+export PATH=/opt/local/lib/postgresql92/bin:$PATH
+
 eval "$(rbenv init -)"

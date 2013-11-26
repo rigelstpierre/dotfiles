@@ -1,0 +1,6 @@
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'mileszs/ack.vim'
+Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'tpope/vim-vividchalk'
+Bundle 'sjl/badwolf'
+Bundle 'scrooloose/nerdtree'
