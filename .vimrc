@@ -14,7 +14,7 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 set tabstop=2
-set guifont=Droid\ Sans\ Mono:h14
+set guifont=Panic\ Sans:h11
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
