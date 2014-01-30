@@ -74,16 +74,13 @@ if executable('ag')
   let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
 
-" Color scheme
+"Color scheme
+set background="dark"
+colorscheme solarized
 "colorscheme github
 "highlight NonText guibg=#060606
 "highlight Folded  guibg=#0A0A0A guifg=#9090D0
-"colorscheme vividchalk 
 
-set t_Co=256
-set background=dark
-colorscheme badwolf
-" Indent
 hi IndentGuidesOdd  ctermbg=white
 hi IndentGuidesEven ctermbg=lightgrey
 
@@ -161,5 +158,3 @@ function! TrimWhiteSpace()
   %s/\s\+$//e
 endfunction
 autocmd BufWritePre     *.rb :call TrimWhiteSpace()
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
